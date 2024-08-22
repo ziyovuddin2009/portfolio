@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+    font-family: "Fira Code", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(71, 71, 71);
+    justify-content: space-between;
+    padding: 27px ;
+}
+
+.menu {
+    display: flex;
+    gap: 42px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: gray;
+}
+#btn{
+    color: white;
+    display: none;
+}
+.hero {
+    display: flex;
+    padding: 62px 0;
+    gap: 70px;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    width: 550px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    color: purple;
+}
+
+.hero-text p {
+    color: gray;
+    margin-bottom: 20px;
+    width: 550px;
+}
+
+.btn {
+    padding: 5px 7px;
+    background-color: inherit;
+    border: 2px solid purple;
+    color: white;
+}
+
+.name p {
+    padding: 5px 7px;
+    background-color: inherit;
+    border: 2px solid purple;
+    color: white;
+}
+
+.vv {
+    display: flex;
+    width: 650px;
+    height: 95px;
+    background-color: inherit;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.dd {
+    display: flex;
+    width: 155px;
+    height: 63px;
+    background-color: inherit;
+    border: 0.7px solid rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+   width: 70%;
+}
+.ff{ 
+    display: flex;
+    width: 91px;
+    height: 91px;
+    background-color: inherit;
+    border: 0.7px solid rgb(255, 255, 255);
+    color: white;
+    margin: 0 1320px;
+}
+h4{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 48px;
+}
+.card img{
+    border: 1px solid white;
+}
+.card{
+    width: 330px;
+    border: 1px solid white;
+    color: white;
+}
+.cs{
+    color: gray;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+}
+h6{
+    font-size: 25px;
+    margin:16px 0 20px 16px;
+}
+.ee{
+    color: gray;
+    font-size: 15px;
+    margin: 0 0 15px 16px;
+}
+.btn2{
+    padding: 8px 16px;
+    background-color: inherit;
+    border: 2px solid purple;
+    color: white;
+    font-size: 15px;
+    margin:0 0 24px 16px;
+}
+.btn3{
+    padding: 5px 7px;
+    background-color: inherit;
+    border: 2px solid gray;
+    color: gray;
+}
+.hero3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.chiziq{
+    display: flex;
+     gap: 16px;
+}
+.ciziq{
+    width: 511px;
+    height: 2px;
+    background-color: purple;
+    margin-top: 30px;
+}
+.qq{
+    color: white;
+    margin: 20px 0 0 250px;
+}
+.hero4{
+    padding: 106px 0;
+    display: flex;
+}
+.gr2{
+    display: flex;
+}
+.gr3{
+    display: flex;
+}
+.bosh{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.oo{
+    /* width: 250px; */
+    height: 150px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.oo h6{
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.oo p{
+    margin: 25px 0 0 0;
+}
+.gap{
+    width: 515px;
+    color: gray;
+}
+.po{
+    margin: 20px 0;
+}
+
+.btn4{
+    padding: 8px 16px;
+    background-color: inherit;
+    border: 2px solid purple;
+    color: white;
+    font-size: 15px;
+    margin:35px 0 24px 16px;
+}
+.ciziq2{
+    width: 311px;
+    height: 2px;
+    background-color: purple;
+    margin-top: 30px;
+}
+.hero5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero5 img{
+    width: 343px;
+    height: 508px;
+}
+.hero6 img{
+    width: 204px;
+    height: 141px;
+}
+.hero6{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.chiziq2{
+    display: flex;
+     gap: 16px;
+     margin-top: 100px;
+}
+footer{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    border-top: 1px solid white ;
+}
+footer p{
+    margin: 20px 0;
+
+}
+.nn{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width:1000px){
+    nav{
+        display: none;
+    }
+    #btn{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .vv {
+        width: 450px;
+        height: 75px;
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .dd {
+        width: 95px;
+        height: 45px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .chiziq{
+        display: none;
+    }
+    .hero3{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .card img{
+        width: 100%;
+    }
+    .hero4{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .hero5{
+        flex-direction: column;      
+        justify-content: center;
+    }
+    .hero6 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .chiziq2{
+        display: none;
+    }
+}
+@media(max-width:1000px){
+    .hero{
+        margin: 0 auto;
+    }
+    .hero2{
+        display: none;
+    }
+    .hero3{
+        width: 90%;
+    }
+    .hero5{
+        width: 90%;
+    }
+    .hero6{
+        width: 90%;
+    }
+}
